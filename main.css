@@ -60,5 +60,38 @@ html {
 .repos-container .show-data {
     padding: 20px;
     background-color: #E0E0E0;
-    text-transform: capitalize;
+}
+
+.repos-container .show-data .repo-box {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.repos-container .show-data .repo-box:not(:last-child)  {
+    margin-bottom: 5px;
+}
+
+.repos-container .show-data .repo-box a,
+.repos-container .show-data .repo-box span {
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+}
+
+.repos-container .show-data .repo-box a {
+    text-decoration: none;
+    background-color: #e91e63;
+}
+
+.repos-container .show-data .repo-box span {
+    background-color: #009688;
 }
